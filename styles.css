@@ -1,9 +1,23 @@
-#title{
-    color: blue;
+h1{
+    color: yellow;
 }
 
-.flex-container{
-    display: flex;
-    justify-content: flex-end;
 
+
+
+.password-box{
+    margin-left: 10vw;
+    margin-bottom: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body{
+    background-image: url(https://images.newscientist.com/wp-content/uploads/2021/06/28094440/29-june_jupiter.jpg);
+    background-repeat: no-repeat;
 }
