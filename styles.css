@@ -7,18 +7,24 @@ h1{
 
 .password-box{
     display: flex;
-    flex-direction: column;
+    border: 0.25em solid #ffff00;
+    border-radius: 0.75em;
     background-color: #000000;
-    justify-content: center;
-    align-items: center;
-    gap: 10px 10px;
-    height: 100%;
-    border: 1px #ffff00;
-    
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap:20px 30px;
+   margin: auto;
+   margin-top: 20em;
+   padding: 5%;
+   
+}
+#button{
+    background-color: #ffff00;
 }
 
 body{
     background-color: #000000;
+    content: #10060;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
