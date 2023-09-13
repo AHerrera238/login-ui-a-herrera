@@ -5,7 +5,7 @@ h1{
 
 
 
-.password-box{
+.main-box{
     display: flex;
     border: 0.25em solid #ffff00;
     border-radius: 0.75em;
@@ -18,7 +18,9 @@ h1{
    padding: 5%;
    
 }
-#button{
+
+.button{
+    border-radius: 0.75em;
     background-color: #ffff00;
 }
 
