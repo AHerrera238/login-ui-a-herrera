@@ -20,10 +20,9 @@ h1{
 }
 
 .button{
-    border-radius: 0.75em;
     background-color: #ffff00;
+    border-radius: 0.75em;
 }
-
 body{
     background-color: #000000;
     content: #10060;
