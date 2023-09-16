@@ -2,27 +2,38 @@ h1{
     color: #ffff00;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.cdnfonts.com/css/bn-year-2000);
+}
 
+h1{
+    font-family: myFirstFont;
+    font-family: 'BN Year 2000', sans-serif;
+}
 
 
 .main-box{
     display: flex;
     border: 0.25em solid #ffff00;
     border-radius: 0.75em;
+    box-shadow: 0.75em 0.5em 0.5em 0.75em #800080;
     background-color: #000000;
    flex-direction: column;
    flex-wrap: wrap;
-   gap:20px 30px;
+   gap:0.5em 0.25em;
    margin: auto;
    margin-top: 20em;
-   padding: 5%;
+   padding: 2.5%;
    
 }
+
 
 .button{
     background-color: #ffff00;
     border-radius: 0.75em;
 }
+
 body{
     background-color: #000000;
     display:flex;
@@ -34,4 +45,6 @@ body{
 
 }
 
-
+.input-box{
+    border-radius: 20px;
+}
